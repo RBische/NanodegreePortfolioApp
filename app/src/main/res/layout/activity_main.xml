@@ -1,0 +1,82 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:paddingBottom="@dimen/activity_vertical_margin">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="@string/my_apps"
+            android:id="@+id/tvTitle"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="16dp"/>
+
+        <Button
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="@string/btn_spotify_streamer"
+            android:id="@+id/btn_spotify_streamer"
+            android:background="@color/orange"
+            android:layout_below="@+id/tvTitle"
+            android:layout_centerHorizontal="true"/>
+
+        <Button
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="@string/btn_scores_app"
+            android:id="@+id/btn_scores_app"
+            android:layout_below="@+id/btn_spotify_streamer"
+            android:layout_marginTop="16dp"
+            android:background="@color/orange"
+            android:layout_centerHorizontal="true" />
+
+        <Button
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="@string/btn_library_app"
+            android:id="@+id/btn_library_app"
+            android:layout_below="@+id/btn_scores_app"
+            android:layout_marginTop="16dp"
+            android:background="@color/orange"
+            android:layout_centerHorizontal="true" />
+
+        <Button
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="@string/btn_build_it_bigger"
+            android:id="@+id/btn_build_it_bigger"
+            android:layout_below="@+id/btn_library_app"
+            android:layout_marginTop="16dp"
+            android:background="@color/orange"
+            android:layout_centerHorizontal="true" />
+
+        <Button
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="@string/btn_bacon_reader"
+            android:id="@+id/btn_bacon_reader"
+            android:layout_below="@+id/btn_build_it_bigger"
+            android:background="@color/orange"
+            android:layout_marginTop="16dp"
+            android:layout_centerHorizontal="true" />
+
+        <Button
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="@string/btn_capstone_my_own_app"
+            android:id="@+id/btn_capstone_my_own_app"
+            android:layout_below="@+id/btn_bacon_reader"
+            android:layout_marginTop="16dp"
+            android:background="@color/red"
+            android:textColor="@android:color/white"
+            android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+</ScrollView>
