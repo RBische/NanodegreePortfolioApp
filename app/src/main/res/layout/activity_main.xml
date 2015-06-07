@@ -26,6 +26,7 @@
             android:id="@+id/btn_spotify_streamer"
             android:background="@color/orange"
             android:layout_below="@+id/tvTitle"
+            android:onClick="displayToast"
             android:layout_centerHorizontal="true"/>
 
         <Button
@@ -36,6 +37,7 @@
             android:layout_below="@+id/btn_spotify_streamer"
             android:layout_marginTop="16dp"
             android:background="@color/orange"
+            android:onClick="displayToast"
             android:layout_centerHorizontal="true" />
 
         <Button
@@ -46,6 +48,7 @@
             android:layout_below="@+id/btn_scores_app"
             android:layout_marginTop="16dp"
             android:background="@color/orange"
+            android:onClick="displayToast"
             android:layout_centerHorizontal="true" />
 
         <Button
@@ -56,6 +59,7 @@
             android:layout_below="@+id/btn_library_app"
             android:layout_marginTop="16dp"
             android:background="@color/orange"
+            android:onClick="displayToast"
             android:layout_centerHorizontal="true" />
 
         <Button
@@ -66,6 +70,7 @@
             android:layout_below="@+id/btn_build_it_bigger"
             android:background="@color/orange"
             android:layout_marginTop="16dp"
+            android:onClick="displayToast"
             android:layout_centerHorizontal="true" />
 
         <Button
@@ -77,6 +82,7 @@
             android:layout_marginTop="16dp"
             android:background="@color/red"
             android:textColor="@android:color/white"
+            android:onClick="displayToast"
             android:layout_centerHorizontal="true" />
     </RelativeLayout>
 </ScrollView>
